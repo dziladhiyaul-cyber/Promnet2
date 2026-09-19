@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f9fc;
+    color: #263746;
+}
+
+nav{
+    background-color: #eebe94;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-bottom: 1px solid grey;
+}
+
+.logo{
+    color: black;
+    font-family: Georgia, serif;
+}
+
+.logo h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+.link-navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    font-family: Georgia, serif;
+}
+
+
+#home{
+    background-color: #ffdbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.home-content{
+    padding: 5px  60px;
+}
+
+.home-img{
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.home-content h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.home-content p{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+
+.home-page{
+    padding: 5px 60px;
+}
+
+.home-page h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #eebe94;
+    padding: 40px;
+    border: 2px solid #ffdbbb;
+}
+
+.home-page ul{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+
+.home-page p{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+
+footer{
+    font-size: 13px;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    border-top: 1px solid grey;
+}
+
+#about{
+    min-height: 600px;
+    background-color: #ffdbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px  60px;
+}
+
+.profil h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px; 
+}
+
+.profil p{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+
+.data-diri h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px; 
+}
+
+.data-diri table{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+.hobi h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px; 
+}
+
+.hobi ol{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+.riwayat h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px; 
+}
+
+.riwayat ul{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+.link-bawah{
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+
+#project{
+    min-height: 600px;
+    background-color: #ffdbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px  60px;
+}
+
+.daftar-project h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.daftar-project h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px;
+}
+
+.daftar-project p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.daftar-project img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.teknologi h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.teknologi ul{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+.ringkasan h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.ringkasan table{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+#kontak{
+    min-height: 600px;
+    background-color: #ffdbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px  60px;
+}
+
+.informasi h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.informasi p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.form h2{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.form form{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 15px; 
+}
+
+.form p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+#katalog{
+    min-height: 600px;
+    background-color: #ffdbbb;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px  60px;
+}
+
+.Hobi h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.Hobi p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.Hobi img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.makanan h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.makanan p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.makanan img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.minuman h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.minuman p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.minuman img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.warna h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.warna p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+
+.warna img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.series h3{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.series p{
+    color: black;
+    font-size: 13px;
+    font-family: Georgia, serif;
+}
+.series img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
